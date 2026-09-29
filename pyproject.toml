@@ -3,7 +3,7 @@ name = "fuelbuddy_procurement"
 authors = [
     { name = "Fuelbuddy", email = "shantanu.mishra@fuelbuddy.in"}
 ]
-description = "Fuelbuddy procurement customisations (PARC)"
+description = "Fuelbuddy procurement customisations: PARC reverse audit of supplier advances"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

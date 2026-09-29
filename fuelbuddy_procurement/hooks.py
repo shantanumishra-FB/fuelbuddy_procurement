@@ -1,7 +1,7 @@
 app_name = "fuelbuddy_procurement"
 app_title = "Fuelbuddy Procurement"
 app_publisher = "Fuelbuddy"
-app_description = "Procurement customisations: Purchase Advance Receipt Control (PARC)"
+app_description = "Procurement customisations: PARC, a reverse audit of supplier advances against goods received"
 app_email = "shantanu.mishra@fuelbuddy.in"
 app_license = "mit"
 

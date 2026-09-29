@@ -2,8 +2,10 @@
 
 Buying-side customisations for FuelBuddy ERPNext. First (and so far only) feature: **PARC**.
 
-Purchase Advance Receipt Control (PARC): one row per supplier advance paid against a
-Purchase Order, closed when the matching Purchase Receipt is submitted.
+Purchase Advance Receipt Control (PARC) is a **reverse audit** of supplier advances: every
+advance paid against a Purchase Order gets one PARC row, and the row is only closed when the
+matching Purchase Receipt is submitted. Whatever is still a draft is money paid out with no goods
+received yet.
 
 Code-first port of the customisations that lived in the site DB (custom DocType in the
 *Buying* module plus three DocType-Event Server Scripts). Extracted from the prod restore on
